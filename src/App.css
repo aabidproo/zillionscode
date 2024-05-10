@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.primary_button {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 0;
+    border: none;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.secondary_button {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 0;
+    border: 1px solid var(--color-secondary);
+    background-color: transparent;
+    color: var(--color-secondary);
+}

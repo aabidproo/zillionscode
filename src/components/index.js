@@ -1,0 +1,11 @@
+export { default as Company } from './company/Company';
+export { default as Cta } from './cta/Cta';
+export { default as Footer } from './footer/Footer';
+export { default as Hero } from './hero/Hero';
+export { default as Navbar } from './navbar/Navbar';
+export { default as Approach } from './approach/Approach';
+export { default as Overview } from './overview/Overview';
+export { default as Solutions } from './solutions/Solutions';
+export { default as Stories } from './solutions/Solutions';
+export { default as Testimonial } from './testimonial/Testimonial';
+export { default as Tech } from './tech/Tech';

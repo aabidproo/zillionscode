@@ -13,6 +13,7 @@
     border: none;
     background-color: var(--color-primary);
     color: var(--color-white);
+    cursor: pointer;
 }
 
 .secondary_button {
@@ -23,4 +24,5 @@
     border: 1px solid var(--color-secondary);
     background-color: transparent;
     color: var(--color-secondary);
+    cursor: pointer;
 }

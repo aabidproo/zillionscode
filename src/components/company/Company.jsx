@@ -1,10 +1,14 @@
 import React from 'react'
-import './company.css'
+
 
 function Company() {
   return (
-    <div>
-      Company
+    <div className='company_container'>
+      <p>Trusted by Fastest Growing SMEs & Startups</p>
+      <div className='company_logo'>
+        <img src='src/assets/figma.png' alt='figma logo'/>
+    
+      </div>
     </div>
   )
 }

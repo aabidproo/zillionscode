@@ -1,0 +1,58 @@
+.approach_container {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.approach_container h2 {
+    font-size: 28px;
+}
+
+.approach_container p {
+    margin: 0 auto;
+    max-width: 600px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.approach_box_wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+.approach_box {
+    text-align: left;
+    width: 250px;
+    /* padding: 0 60px 0 0; */
+}
+
+.text_gradient {
+    font-size: 94px;
+    font-weight: 700;
+    background: linear-gradient(180deg, rgba(241, 90, 36, 0.25) 0%, rgba(255, 255, 255, 0.25) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.approach_box h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.approach_box_wrapper .approach_box p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.approach_box_wrapper .approach_box span {
+    min-width: 100px;
+    min-height: 4px;
+    background-color: var(--color-primary);
+}

@@ -1,0 +1,23 @@
+.testimonial_container {
+    height: 600px;
+    background-color: var(--color-secondary);
+    padding: 80px 0;
+}
+
+.testimonial_wrapper {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.testimonial_content_wrapper {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 80px 0
+}
+
+.testimonial_wrapper img {
+    object-fit: none;
+}

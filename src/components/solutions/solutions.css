@@ -1,0 +1,33 @@
+.hero_container {
+    background-color: var(--color-lite_bg);
+    
+}
+
+.hero_wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-content: center;
+    padding: 40px 0;
+}
+
+.hero_content {
+    align-content: center;
+    margin-top: -50px;
+
+}
+
+.hero_content h1, p {
+    max-width: 450px;
+    padding-top: 20px;
+}
+
+.hero_wrapper img {
+    margin: 0 auto;
+}
+
+
+.hero_content button {
+    margin-top: 20px;
+}

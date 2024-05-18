@@ -1,0 +1,23 @@
+.tech_container {
+    align-content: center;
+    margin: 0 auto;
+    width: 1140px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 80px 0;
+}
+
+.tech_logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.tech_container p {
+    max-width: 600px;
+    padding-bottom: 60px;
+    font-size: 16px;
+    color: var(--color-secondary);
+    margin: 0 auto;
+}

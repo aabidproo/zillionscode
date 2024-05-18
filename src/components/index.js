@@ -6,6 +6,6 @@ export { default as Navbar } from './navbar/Navbar';
 export { default as Approach } from './approach/Approach';
 export { default as Overview } from './overview/Overview';
 export { default as Solutions } from './solutions/Solutions';
-export { default as Stories } from './solutions/Solutions';
+export { default as Stories } from './stories/Stories';
 export { default as Testimonial } from './testimonial/Testimonial';
 export { default as Tech } from './tech/Tech';

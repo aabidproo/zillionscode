@@ -45,14 +45,14 @@ function Cta() {
           </div>
 
           <div className='cta_form_control'>
-            <input type="text" placeholder='Full Name' />
+            <input type="text" placeholder='Full Name' required />
             <div className='cta_input_inline'>
-              <input type="text" placeholder='Business Email' />
-              <input type="number" placeholder='Mobile' />
+              <input type="text" placeholder='Business Email' required />
+              <input type="number" placeholder='Mobile' required/>
             </div>
-            <input type="text" placeholder='Message' />
+            <textarea type="text" placeholder='Message' required/>
           </div>
-          <button className='primary_button lg-padding'>Send Message</button>
+          <button type='submit' className='primary_button lg-padding'>Send Message</button>
           <p>We're committed to your privacy. ZillionsCode uses the information you provide to us to contact you about our relevant products, and services.</p>
         </div>
       </div>

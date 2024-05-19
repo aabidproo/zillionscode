@@ -9,11 +9,18 @@
 .primary_button {
     font-family: "Inter", sans-serif;
     font-size: 14px;
-    padding: 10px 20px;
+    padding: 16px 32px;
     border-radius: 0;
     border: none;
     background-color: var(--color-primary);
     color: var(--color-white);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.primary_button:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: var( --color-primary-hover);
     cursor: pointer;
 }
 

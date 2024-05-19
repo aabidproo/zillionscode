@@ -94,7 +94,28 @@
     color: var(--color-secondary);
     margin: 4px 0;
 }
+
+.cta_form_control textarea {
+    width: 100%;
+    max-width: 480px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 16px 20px;
+    border-radius: 0 ;
+    border: none;
+    background-color: white;
+    color: var(--color-secondary);
+    margin: 4px 0;
+    height: 100px;
+}
+
 .cta_form_control input::placeholder {
+    color: var(--color-secondary_text);
+    font-weight: 400;
+    font-size: 14px;
+}
+.cta_form_control textarea::placeholder {
     color: var(--color-secondary_text);
     font-weight: 400;
     font-size: 14px;
@@ -105,6 +126,11 @@
 }
 
 .cta_form_control input:focus {
+    outline: none;
+    border: 1px solid var(--color-secondary);
+}
+
+.cta_form_control textarea:focus {
     outline: none;
     border: 1px solid var(--color-secondary);
 }

@@ -16,11 +16,7 @@ function Testimonial() {
     slidesToScroll: 1,
     autoplay: true,
     pauseOnHover: false,
-    autoplaySpeed: 2000,
-    customPaging: (index) => (
-      <div className="custom-dot" key={index}></div>
-    ),
-    dotsClass: "slick-dots custom-dots",
+    autoplaySpeed: 3000,
   }
 
   const testimonials = [

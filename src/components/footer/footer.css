@@ -34,14 +34,14 @@
 
 
 
-
-
-
-
 .footer_content a {
     color: var(--color-secondary_text);
     font-size: 14px;
     padding: 0 20px;
+}
+
+.footer_content a:hover {
+    color: #fff;
 }
 
 .footer_content p {
@@ -58,4 +58,8 @@
 .footer_icon a {
     color: var(--color-secondary_text) !important;
     font-size: 20px;
+}
+
+.footer_icon a:hover {
+    color: #fff !important;
 }

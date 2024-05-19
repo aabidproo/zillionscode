@@ -1,24 +1,73 @@
 import React from 'react'
+import Slider from 'react-slick'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import './testimonial.css'
-import testimonial from '../../assets/testimonial.png'
+import image1 from '../../assets/testimonial.png'
 
 function Testimonial() {
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    pauseOnHover: false,
+    autoplaySpeed: 2000,
+    customPaging: (index) => (
+      <div className="custom-dot" key={index}></div>
+    ),
+    dotsClass: "slick-dots custom-dots",
+  }
+
+  const testimonials = [
+    {
+      title: "Testimonial title here",
+      message: "We are not just a digital agency; we are your strategic partner, committed to fueling your business growth journey. From crafting robust marketing strategies to designing captivating websites and developing cutting-edge software solutions, we collaborate with you to conceive a winning strategy and seamlessly execute it.",
+      author: "John Doe",
+      designation: "CEO, Company"
+    },
+    {
+      title: "Testimonial title here",
+      message: "We are not just a digital agency; we are your strategic partner, committed to fueling your business growth journey. From crafting robust marketing strategies to designing captivating websites and developing cutting-edge software solutions, we collaborate with you to conceive a winning strategy and seamlessly execute it.",
+      author: "John Doe",
+      designation: "CEO, Company"
+    },
+    {
+      title: "Testimonial title here",
+      message: "We are not just a digital agency; we are your strategic partner, committed to fueling your business growth journey. From crafting robust marketing strategies to designing captivating websites and developing cutting-edge software solutions, we collaborate with you to conceive a winning strategy and seamlessly execute it.",
+      author: "John Doe",
+      designation: "CEO, Company"
+    },
+    // Add more testimonials as needed
+  ];
+
+
   return (
+
     <div className='testimonial_container'>
-      <div className='testimonial_wrapper'>
-        <img src={testimonial} alt='testimonial' />
-        
-        <div className='testimonial_content'>
-          <div>
-            <h2>Testimonial title here</h2>
-            <p>We are not just a digital agency; we are your strategic partner, committed to fueling your business growth journey. From crafting robust marketing strategies to designing captivating websites and developing cutting-edge software solutions, we collaborate with you to conceive a winning strategy and seamlessly execute it.</p>
+
+      <Slider {...settings}>
+        {testimonials.map((testimonial, index) => (
+          <div key={index} className='testimonial_wrapper'>
+            <img src={image1} alt="image1" />
+            <div className='testimonial_content'>
+              <div>
+                <h2>{testimonial.title}</h2>
+                <p>{testimonial.message}</p>
+              </div>
+              <div>
+                <h4>{testimonial.author}</h4>
+                <p>{testimonial.designation}</p>
+              </div>
+            </div>
           </div>
-          <div>
-            <h4>Years of Operation</h4>
-            <p>and being strategic partners for our clients</p>
-          </div>
-        </div>
-      </div>
+        ))}
+      </Slider>
+
     </div>
   )
 }

@@ -1,30 +1,42 @@
 import React from 'react'
+import { useState } from 'react'
 import './solutions.css'
 import banner from '../../assets/image03.png'
-import { IoIosArrowDown } from 'react-icons/io'
+// import { IoIosArrowDown } from 'react-icons/io'
 import solutionsIcon from '../../assets/solutions_icon.png'
 
 
 function Solutions() {
+
+  const [selected, setSelected] = useState(null)
+
+  const toggle = (i) => {
+    if (selected === i) {
+      return setSelected(null)
+    }
+    setSelected(i)
+  }
+
+
   return (
     <div className='solution_container'>
       <div className='solution_wrapper'>
         <div className='solution_content'>
-          
-        {data.map((item, i) => (
+
+          {data.map((item, i) => (
             <div className='item'>
-              <div>
-                <img src={solutionsIcon} alt="solutions" />
-              </div>
-                 <div className='solutions'>
+              <div className='item_flex' onClick={() => toggle(i)}>
+                <div className='solutions'>
+                  <img src={solutionsIcon} alt="solutions" />
                   <h2>{item.solution}</h2>
-                  <span> <IoIosArrowDown /></span>
-                 </div>
-                 <div className='description'>
-                  <p>{item.description}</p>
-                 </div>
+                </div>
+                <span> {selected === i ? "-" : "+"}</span>
+              </div>
+              <div className={selected === i ? "show" : "description"}>
+                <p>{item.description}</p>
+              </div>
             </div>
-        ))}
+          ))}
 
         </div>
 

@@ -8,7 +8,7 @@ import { FaXTwitter } from 'react-icons/fa6'
 function Footer() {
 
   const currentYear = new Date().getFullYear();
-  
+
   return (
     <div className='footer_container'>
 
@@ -19,18 +19,19 @@ function Footer() {
         </div>
 
         <div className='footer_buttons'>
-        <div className='footer_button_links'>
-          <p>All rights reserved &copy; {currentYear}</p>
-          <a href="">Privacy Policy</a>
-          <a href="">Terms & Condition</a>
-        </div>
+          <div className='footer_button_links'>
+            <p>All rights reserved &copy; {currentYear}</p>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms-and-conditions">Terms & Conditions</a></li>
 
-        <div className='footer_icon'>
-        <a href="https://react-icons.github.io/react-icons/"> <FaXTwitter/></a>
-          <a href="https://react-icons.github.io/react-icons/"> <FaLinkedin/></a>
-          <a href="https://react-icons.github.io/react-icons/"> <FaInstagram/></a>
-          <a href="https://react-icons.github.io/react-icons/"> <FaFacebook/></a>
-        </div>
+          </div>
+
+          <div className='footer_icon'>
+            <a href="https://react-icons.github.io/react-icons/"> <FaXTwitter /></a>
+            <a href="https://react-icons.github.io/react-icons/"> <FaLinkedin /></a>
+            <a href="https://react-icons.github.io/react-icons/"> <FaInstagram /></a>
+            <a href="https://react-icons.github.io/react-icons/"> <FaFacebook /></a>
+          </div>
         </div>
 
       </div>

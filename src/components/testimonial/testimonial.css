@@ -6,7 +6,8 @@
 
 .testimonial_wrapper {
     max-width: 1140px;
-    display: flex;
+    display: flex !important;
+    /* flex-direction: column; */
     justify-content: space-between;
     margin: 0 auto;
 }
@@ -35,3 +36,23 @@
 .testimonial_wrapper img {
     object-fit: none;
 }
+
+.slick-dots.custom-dots {
+    bottom: -30px;
+    right: -110px;
+    display: flex !important;
+    justify-content: center;
+  }
+  
+  .custom-dot {
+    width: 16px;
+    height: 4px;
+    background: #ffffff3f; /* Customize as needed */
+    /* margin: 0 1px; */
+    cursor: pointer;
+  }
+  
+  .custom-dot.slick-active {
+    background: rgb(255, 135, 6) !important; /* Ensure specificity and add !important if needed */
+  }
+  

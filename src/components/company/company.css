@@ -16,7 +16,8 @@
 }
 
 .company_logo {
-    display: flex;
-    justify-content: space-around;
+    display: flex !important;
+    align-content: center;
+    justify-content: center;
     width: 100%;
 }

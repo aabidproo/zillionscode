@@ -12,14 +12,6 @@
     font-weight: 600;
 }
 
-
-.tech_logo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-}
-
 .tech_container p {
     max-width: 700px;
     padding-bottom: 60px;
@@ -28,4 +20,10 @@
     color: var(--color-primary_text);
     margin: 0 auto;
     
+}
+
+.tech_logo {
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
 }

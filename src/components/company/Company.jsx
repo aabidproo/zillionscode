@@ -1,6 +1,5 @@
 import React from 'react'
 import '../company/company.css'
-
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -13,20 +12,18 @@ import logo4 from '../../assets/nodejs.png'
 import logo5 from '../../assets/python.png'
 
 
-
 function Company() {
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
     pauseOnHover: false,
     autoplaySpeed: 2000,
   }
-
 
   const companies = [
     { image: logo1 },
@@ -36,7 +33,6 @@ function Company() {
     { image: logo5 },
   ];
 
-
   return (
 
     <div className='company_container'>
@@ -44,7 +40,7 @@ function Company() {
       <Slider {...settings}>
         {companies.map((company, index) => (
           <div key={index} className='company_logo'>
-           <img src={company.image} alt={'logo${index}'}/>
+           <img src={company.image} alt={`logo${index}`}/>
           </div>
         ))}
       </Slider >

@@ -1,9 +1,12 @@
 .wrapper {
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     min-height: 80px;
     background-color: #fff;
     border: 1px solid #ddd;
+    z-index: 1;
+    top: 0;
+
     /* background-color: black; */
 }
 

@@ -26,3 +26,16 @@
     color: var(--color-secondary);
     cursor: pointer;
 }
+
+.secondary_button_rounded {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+

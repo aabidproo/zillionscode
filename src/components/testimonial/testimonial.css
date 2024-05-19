@@ -10,12 +10,26 @@
     justify-content: space-between;
     margin: 0 auto;
 }
-.testimonial_content_wrapper {
+.testimonial_content {
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 80px 0
+    padding: 80px 0;
+    max-width: 500px;
+}
+
+.testimonial_content h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.testimonial_content p{
+    color: #b9b9b9;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
 }
 
 .testimonial_wrapper img {

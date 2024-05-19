@@ -1,0 +1,129 @@
+.cta_container {
+    align-content: center;
+    margin: 0 auto;
+    width: 1140px;
+    padding: 80px 0;
+}
+
+.cta_wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+
+.cta_content_box_wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.cta_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px 0;
+    row-gap: 30px;
+}
+
+.cta_content p {
+    padding-top: 10px;
+    font-size: 14px;
+    color: var(--color-primary_text);
+}
+
+.cta_content h2 {
+    font-size: 28px;
+    color: var(--color-secondary);
+    font-weight: 600;
+}
+
+.cta_content h3 {
+    font-size: 20px;
+    color: var(--color-secondary);
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.line {
+    height: 3px;
+    max-width: 50px;
+    background: var(--color-primary);
+    margin-top: 5px;
+}
+
+.cta_content_box_wrapper {
+    padding: 20px 0;
+    column-gap: 20px;
+}
+
+
+
+
+
+
+.cta_form {
+    background-color: var(--color-lite_bg);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.cta_form h2 {
+    font-size: 28px;
+    color: var(--color-secondary);
+    font-weight: 600;
+}
+
+.cta_form p {
+    padding-top: 10px;
+    font-size: 14px;
+    color: var(--color-primary_text);
+}
+
+
+.cta_form_control input {
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 16px 20px;
+    border-radius: 0 ;
+    border: none;
+    background-color: white;
+    color: var(--color-secondary);
+    margin: 4px 0;
+}
+.cta_form_control input::placeholder {
+    color: var(--color-secondary_text);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.lg-padding {
+    padding: 16px 20px !important;
+}
+
+.cta_form_control input:focus {
+    outline: none;
+    border: 1px solid var(--color-secondary);
+}
+
+
+.cta_input_inline {
+    display: flex;
+    column-gap: 8px;
+}
+
+/* for hidding spinner in type number */
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield; /* Firefox */
+  appearance: textfield; /* Other browsers */
+}

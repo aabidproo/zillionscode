@@ -1,33 +1,43 @@
-.hero_container {
+.solution_container {
     background-color: var(--color-lite_bg);
     
 }
 
-.hero_wrapper {
+.solution_wrapper {
     display: flex;
     justify-content: space-between;
     max-width: 1140px;
     margin: 0 auto;
     align-content: center;
     padding: 40px 0;
+    column-gap: 80px;
 }
 
-.hero_content {
+.solution_content {
     align-content: center;
     margin-top: -50px;
 
 }
 
-.hero_content h1, p {
+.solution_content h1 {
     max-width: 450px;
     padding-top: 20px;
 }
 
-.hero_wrapper img {
+.solution_content h1 {
+    max-width: 450px;
+    padding-top: 20px;
+}
+.solution_content p {
+    max-width: 450px;
+    padding-top: 20px;
+}
+
+.solution_wrapper img {
     margin: 0 auto;
 }
 
 
-.hero_content button {
+.solution_content button {
     margin-top: 20px;
 }

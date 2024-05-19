@@ -1,6 +1,8 @@
 import React from 'react'
 import './solutions.css'
 import banner from '../../assets/image03.png'
+import { IoIosArrowDown } from 'react-icons/io'
+import solutionsIcon from '../../assets/solutions_icon.png'
 
 
 function Solutions() {
@@ -11,9 +13,12 @@ function Solutions() {
           
         {data.map((item, i) => (
             <div className='item'>
+              <div>
+                <img src={solutionsIcon} alt="solutions" />
+              </div>
                  <div className='solutions'>
                   <h2>{item.solution}</h2>
-                  <span> <i></i> </span>
+                  <span> <IoIosArrowDown /></span>
                  </div>
                  <div className='description'>
                   <p>{item.description}</p>

@@ -13,13 +13,12 @@ function Solutions() {
             <div className='item'>
                  <div className='solutions'>
                   <h2>{item.solution}</h2>
+                  <span> <i></i> </span>
                  </div>
                  <div className='description'>
                   <p>{item.description}</p>
                  </div>
             </div>
-          
-
         ))}
 
         </div>

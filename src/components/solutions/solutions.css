@@ -15,22 +15,28 @@
 
 .solution_content {
     align-content: center;
-    margin-top: -50px;
 
 }
 
-.solution_content h1 {
-    max-width: 450px;
-    padding-top: 20px;
+
+.item {
+    border-bottom: 1px solid #ddd;
+    /* background: black; */
+    margin-bottom: 20px;
 }
 
-.solution_content h1 {
+.solution_content h2 {
     max-width: 450px;
     padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
 }
 .solution_content p {
     max-width: 450px;
-    padding-top: 20px;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-primary_text);
 }
 
 .solution_wrapper img {

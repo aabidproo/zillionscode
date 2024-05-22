@@ -6,8 +6,6 @@
     border: 1px solid #ddd;
     z-index: 1;
     top: 0;
-
-    /* background-color: black; */
 }
 
 .nav_container {
@@ -30,33 +28,6 @@
 }
 
 .nav_links ul li a {
-    /* color: #ddd; */
     padding: 20px;
     font-size: 14px;
 }
-
-
-
-
-
-
-/* .nav_container {
-    display: flex;
-    justify-content: space-between;
-    max-height: 80px ;
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
-} */
-
-/* .nav_links ul {
-    display: flex;
-}
-
-.nav_links li {
-    padding: 16px;
-    font-size: 14px;
-} */
-
-
